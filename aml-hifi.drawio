@@ -1,17 +1,47 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0" version="24.8.1">
   <diagram name="第 1 页" id="HirLhqqwFSRe6SaqzQkA">
-    <mxGraphModel dx="2389" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2780" dy="1056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="cc04wzaYR5zylwGPmALp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cc04wzaYR5zylwGPmALp-1" target="cc04wzaYR5zylwGPmALp-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="911" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cc04wzaYR5zylwGPmALp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cc04wzaYR5zylwGPmALp-1" target="cc04wzaYR5zylwGPmALp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cc04wzaYR5zylwGPmALp-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cc04wzaYR5zylwGPmALp-1" target="cc04wzaYR5zylwGPmALp-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1305" y="655" />
+              <mxPoint x="1305" y="655" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cc04wzaYR5zylwGPmALp-1" value="vendor/amlogic/rtos/HiFiDSP_rtos_sdk/audio/lib/aprocess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="610" width="430" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="cc04wzaYR5zylwGPmALp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cc04wzaYR5zylwGPmALp-2" target="cc04wzaYR5zylwGPmALp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="cc04wzaYR5zylwGPmALp-2" value="&lt;div style=&quot;color: #d4d4d4;background-color: #1e1e1e;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;aml_proc_init&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #569cd6;&quot;&gt;void&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;AudioTaskInitOnce&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;();&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_OPEN, audio_aprocess_open, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_CLOSE, audio_aprocess_close, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_START, audio_aprocess_start, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_STOP, audio_aprocess_stop, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_READ, audio_aprocess_read, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_WRITE, audio_aprocess_write, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_DQBUF, audio_aprocess_dqbuf, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_QBUF, audio_aprocess_qbuf, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_GET_GAIN, audio_aprocess_get_volume_gain, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_SET_GAIN, audio_aprocess_set_volume_gain, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;xAIPCSrvInstallRemoteCB&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(MBX_CMD_APROCESS_WRITE_SPEAKER, audio_aprocess_write_to_speaker, &lt;/span&gt;&lt;span style=&quot;color: #b5cea8;&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;color: #c8c8c8;&quot;&gt;printf&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;color: #ce9178;&quot;&gt;&quot;amlogic audio process function init.\n&quot;&lt;/span&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #d4d4d4;&quot;&gt;}&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="570" width="560" height="370" as="geometry" />
+          <mxGeometry x="-130" y="435" width="740" height="370" as="geometry" />
         </mxCell>
         <mxCell id="cc04wzaYR5zylwGPmALp-4" value="vendor/amlogic/rtos/HiFiDSP_rtos_sdk/audio/lib/aprocess/src/aml_proc_init.c" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-100" y="520" width="450" height="50" as="geometry" />
+          <mxGeometry x="-130" y="360" width="450" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cc04wzaYR5zylwGPmALp-6" value="audio_aprocess_open" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="680" width="143" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cc04wzaYR5zylwGPmALp-8" value="audio_aprocess_read" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="680" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cc04wzaYR5zylwGPmALp-10" value="audio_aprocess_read" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="680" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
