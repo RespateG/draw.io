@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="第 1 页" id="PCkdRjPO7_-sSv6l2gZ-">
-    <mxGraphModel dx="3740" dy="-2106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3740" dy="-2106" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1187,10 +1187,10 @@
         <mxCell id="Gu_jIAmx3-sYf6A36WcX-50" value="UAC Capture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-2750" y="2980" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gu_jIAmx3-sYf6A36WcX-51" value="Host Capture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=#80FF00;" parent="1" vertex="1">
+        <mxCell id="Gu_jIAmx3-sYf6A36WcX-51" value="Host Capture" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=light-dark(#009900,#336600);labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-2820" y="3007.5" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gu_jIAmx3-sYf6A36WcX-52" value="UAC Playback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=#80FF00;" parent="1" vertex="1">
+        <mxCell id="Gu_jIAmx3-sYf6A36WcX-52" value="UAC Playback" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=light-dark(#009900,#336600);" parent="1" vertex="1">
           <mxGeometry x="-2750" y="3007.5" width="60" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Gu_jIAmx3-sYf6A36WcX-53" value="UAC设备" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -1234,7 +1234,7 @@
         <mxCell id="Gu_jIAmx3-sYf6A36WcX-66" value="SPK" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=#FF3333;" parent="1" vertex="1">
           <mxGeometry x="-2570" y="2990" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Gu_jIAmx3-sYf6A36WcX-67" value="MIC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=#80FF00;" parent="1" vertex="1">
+        <mxCell id="Gu_jIAmx3-sYf6A36WcX-67" value="MIC" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=6;fontColor=light-dark(#009900,#006000);" parent="1" vertex="1">
           <mxGeometry x="-2565" y="3012.5" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
